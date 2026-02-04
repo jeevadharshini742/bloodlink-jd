@@ -19,10 +19,10 @@ const donors = [
         lastDonation: "3 months ago"
     },
     {
-        name: "Rahul Verma",
+        name: "JERUSHA",
         blood: "B+",
         location: "Bangalore",
-        phone: "9988776655",
+        phone: "8015250226",
         verified: true,
         available: true,
         lastDonation: "5 months ago"
@@ -100,3 +100,4 @@ function sendEmergency() {
     alert("🚨 Emergency alert sent to all verified donors!");
 
 }
+
