@@ -1,10 +1,10 @@
 // Simulated real-time donor database
 const donors = [
     {
-        name: "Arun Kumar",
+        name: "JEEVA DHARSHINI",
         blood: "A+",
         location: "Chennai",
-        phone: "9876543210",
+        phone: "7845183275",
         verified: true,
         available: true,
         lastDonation: "4 months ago"
@@ -98,4 +98,5 @@ function sendEmergency() {
     });
 
     alert("🚨 Emergency alert sent to all verified donors!");
+
 }
