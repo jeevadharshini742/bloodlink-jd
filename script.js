@@ -1,19 +1,19 @@
 // Simulated real-time donor database
 const donors = [
     {
-        name: "JEEVA DHARSHINI",
+        name: "JANANI",
         blood: "A+",
         location: "Chennai",
-        phone: "7845183275",
+        phone: "9360232297",
         verified: true,
         available: true,
         lastDonation: "4 months ago"
     },
     {
-        name: " JANANI ",
+        name: " BHARATH MANI ",
         blood: "O+",
         location: "Chennai",
-        phone: " 93602 32297",
+        phone: " 6369658657",
         verified: true,
         available: true,
         lastDonation: "3 months ago"
@@ -100,5 +100,6 @@ function sendEmergency() {
     alert("🚨 Emergency alert sent to all verified donors!");
 
 }
+
 
 
