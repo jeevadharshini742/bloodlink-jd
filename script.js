@@ -10,10 +10,10 @@ const donors = [
         lastDonation: "4 months ago"
     },
     {
-        name: "Priya Sharma",
+        name: " JANANI ",
         blood: "O+",
         location: "Chennai",
-        phone: "9123456789",
+        phone: " 93602 32297",
         verified: true,
         available: true,
         lastDonation: "3 months ago"
@@ -100,4 +100,5 @@ function sendEmergency() {
     alert("🚨 Emergency alert sent to all verified donors!");
 
 }
+
 
