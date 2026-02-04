@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BloodLink - Emergency Blood Donation Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🩸 BloodLink</h1>
+        <p>Emergency Blood Donation Finder</p>
+    </header>
+
+    <section class="search-box">
+        <h2>Find Blood Donor</h2>
+
+        <label>Blood Group:</label>
+        <select id="bloodGroup">
+            <option value="">Select</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select>
+
+        <label>Location:</label>
+        <input type="text" id="location" placeholder="Enter city">
+
+        <button onclick="searchDonor()">Search</button>
+    </section>
+
+    <section class="results">
+        <h2>Available Donors</h2>
+        <div id="donorList"></div>
+    </section>
+
+    <footer>
+        <p>© 2026 BloodLink | Code Crushers</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

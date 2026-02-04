@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b30000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-box {
+    background: white;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.search-box label {
+    display: block;
+    margin-top: 10px;
+}
+
+.search-box input,
+.search-box select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.search-box button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #b30000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.results {
+    width: 80%;
+    margin: auto;
+}
+
+.donor-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #b30000;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
